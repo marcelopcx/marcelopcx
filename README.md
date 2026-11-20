@@ -8,7 +8,7 @@
 </div>
 
 ```java
-public record Marcelo() implements Developer {
+public class Marcelo implements Developer {
     String role     = "Backend Developer";
     String studying = "Systems Engineering @ URU — final trimester";
     List<String> focus = List.of("REST APIs", "Game streaming", "Self-hosted infra");
