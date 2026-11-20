@@ -20,3 +20,16 @@ public class Marcelo implements Developer {
 <p align="center">
   <img src="https://skillicons.dev/icons?i=rust,java,spring,python,ts,react,postgres,docker,linux&perline=9" alt="Rust, Java, Spring, Python, TypeScript, React, PostgreSQL, Docker, Linux" />
 </p>
+
+### 🌸 About me
+
+- 🎓 Finishing my **Systems Engineering** degree at Universidad Rafael Urdaneta (Maracaibo, Venezuela)
+- 🦀 Building REST APIs with **Rust (Actix Web)** and **Java (Spring Boot)**
+- 🎮 Working on a **cloud-gaming platform** that streams games over WebRTC
+- 🏠 Running my own **home server** with Docker: media, dashboards and self-hosted services
+- 🕹️ Tinkering with retro handhelds and e-readers in my free time
+- 🌎 Spanish (native) · English
+
+### 📫 Get in touch
+
+Find my projects and blog at **[marcelopcx.me](https://marcelopcx.me)** — feel free to reach out!
