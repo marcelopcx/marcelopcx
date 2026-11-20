@@ -1,69 +1,27 @@
-```java
-package com.marcelopcx.profile;
+# Hi, I'm Marcelo Perozo
 
-import java.time.LocalDate;
-import java.time.Period;
-import java.util.List;
-import org.springframework.stereotype.Component;
-import org.springframework.beans.factory.annotation.Autowired;
+Systems Engineering student at **Universidad Rafael Urdaneta** (final trimester), based in Maracaibo, Venezuela.
+I build **backend systems** — REST APIs, game-streaming services and self-hosted infrastructure — mainly with **Rust** and **Java / Spring Boot**.
 
-/**
- * Professional Software Developer & Project Lead
- * Specializing in Backend Systems, Web Scraping, and Mobile Apps.
- */
-@Component
-public class Marcelo implements Developer {
+🌐 [marcelopcx.me](https://marcelopcx.me)
 
-    private static final LocalDate BIRTH_DATE = LocalDate.of(2003, 3, 8);
-    
-    @Autowired
-    private CurrentProjects activeProjects;
+## Tech stack
 
-    @Override
-    public ProfileInfo getProfile() {
-        return ProfileInfo.builder()
-            .fullName("Marcelo Perozo")
-            .age(Period.between(BIRTH_DATE, LocalDate.now()).getYears())
-            .currentRole("Systems Engineering Student & Backend & Mobile Software Developer")
-            .location("Maracaibo, Venezuela")
-            .build();
-    }
+| Area | Tools |
+| --- | --- |
+| Backend | Rust (Actix Web), Java (Spring Boot, Jakarta EE), Python, C++ |
+| Frontend & mobile | TypeScript, React, React Native / Expo, Angular, Astro |
+| Data | PostgreSQL, H2 |
+| Infra | Docker, Linux, Caddy, GitHub Actions, Cloudflare |
+| Practices | Git flow, Scrum, REST, JWT / OAuth2 |
 
-    @Override
-    public List<String> getLanguages() {
-        return List.of("Spanish (Native)", "English");
-    }
+## Featured projects
 
-    @Override
-    public Skills getTechStack() {
-        return Skills.builder()
-            .backend(List.of("Java", "Spring Boot", "Rust", "C++"))
-            .frontend(List.of("React Native", "Angular", "HTML5", "CSS3", "JavaScript"))
-            .tools(List.of("Git / Gitflow", "Scrum / Agile Boards", "Unix Terminal"))
-            .build();
-    }
+- **[game-station](https://github.com/marcelopcx/game-station)** — Runs games on a virtual display and streams them over WebRTC (Java, Spring Boot).
+- **[station](https://github.com/marcelopcx/station)** — Session controller container for a cloud-gaming platform (Python, Docker).
+- **[Pasantes-TV-Backend](https://github.com/marcelopcx/Pasantes-TV-Backend)** — IPTV REST API with channels, categories and live viewer activity (Spring Boot, PostgreSQL, OAuth2).
+- **[marcelopcx.me](https://github.com/marcelopcx/marcelopcx.me)** — My personal website (Astro).
 
-    @Override
-    public void displayCurrentFocus() {
-        System.out.println("🚀 Current Sprint Focus:");
-        
-        activeProjects.getFrontend()
-            .workingOn("Nook’s Cookbook - Mobile App Frontend");
-            
-        activeProjects.getBackend()
-            .leading("Soy Responsable - Automated Insurance Policy Management System");
-            
-        activeProjects.getAcademic()
-            .finishing("University Research Project & Presentation");
-    }
+## Languages
 
-    @Override
-    public List<String> getSocials() {
-        return List.of(
-            "GitHub:   https://github.com/marcelopcx",
-            "LinkedIn: https://www.linkedin.com/in/marcelo-pcx",
-            "Email:    marceloperozocx@gmail.com"
-        );
-    }
-}
-```
+Spanish (native) · English
