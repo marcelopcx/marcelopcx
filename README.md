@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=241c23&height=140&text=Marcelo%20Perozo&fontSize=50&fontColor=f497d2&desc=Backend%20Developer&descSize=18&descAlignY=75&fontAlignY=42" width="100%" alt="Marcelo Perozo — Backend Developer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:241c23,100:6b1230&height=170&text=Marcelo%20Perozo&fontSize=52&fontColor=f497d2&fontAlignY=40&animation=fadeIn" width="100%" alt="Marcelo Perozo" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=800&color=F497D2&background=241C23&center=true&vCenter=true&width=480&height=40&lines=Backend+Developer;Rust+%2B+Spring+Boot+APIs;Game+streaming+over+WebRTC;Self-hosting+everything" alt="Backend Developer · Rust + Spring Boot APIs · Game streaming over WebRTC · Self-hosting everything" />
 
 <a href="https://marcelopcx.me"><img src="https://img.shields.io/badge/marcelopcx.me-241c23?style=for-the-badge&logo=astro&logoColor=f497d2" alt="Website" /></a>
 <img src="https://img.shields.io/badge/Open_to_work-f497d2?style=for-the-badge&logoColor=241c23" alt="Open to work" />
