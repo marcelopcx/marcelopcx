@@ -25,7 +25,7 @@ public class Marcelo implements Developer {
 
 - 🎓 Finishing my **Systems Engineering** degree at Universidad Rafael Urdaneta (Maracaibo, Venezuela)
 - 🦀 Building REST APIs with **Rust (Actix Web)** and **Java (Spring Boot)**
-- 🎮 Working on a **cloud-gaming platform** that streams games over WebRTC
+- 🎮 Built a **[cloud-gaming platform](https://github.com/marcelopcx/cloud-game)** that streams games over WebRTC
 - 🏠 Running my own **home server** with Docker: media, dashboards and self-hosted services
 - 🕹️ Tinkering with retro handhelds and e-readers in my free time
 - 🌎 Spanish (native) · English
